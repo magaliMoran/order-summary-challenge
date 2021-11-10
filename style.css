@@ -1,0 +1,39 @@
+*{ 
+    font-family: 'Red Hat Display', sans-serif;  
+    
+    box-sizing: content-box;     
+}
+
+.contenedorPadre{
+background: #DFE8FF;
+width: 1440px;
+height: 1024px;  
+}
+
+.tarjeta{
+background: #FFFFFF;
+border-radius: 21px;
+width: 511px;
+height: 844px;
+
+
+}
+
+.imgHeader {
+    border-radius: 21px 21px 0px 0px;
+    Width:511px;
+    Height:254px
+    
+    
+}
+
+.buttonPago{
+width: 342px;
+height: 66px;
+color: rgb(255, 255, 255);
+background-color: #382ADF;
+border-color: bisque;
+box-shadow: 1px 17px 14px #DDD8F7;
+border-radius: 10px;
+cursor: pointer;
+}
