@@ -1,0 +1,20 @@
+{
+  "name": "cdmx011-order-summary-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
+    "start": "serve ./src",
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "deploy": "gh-pages -d src",
+    "eslint": "eslint --ext .js src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "gh-pages": "^4.0.0"
+  }
+}
