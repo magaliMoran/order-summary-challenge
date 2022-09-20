@@ -1,39 +1,108 @@
 *{ 
-    font-family: 'Red Hat Display', sans-serif;  
-    
-    box-sizing: content-box;     
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;    
 }
+
 
 .contenedorPadre{
-background: #DFE8FF;
-width: 1440px;
-height: 1024px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/lib/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
 }
 
+
 .tarjeta{
-background: #FFFFFF;
-border-radius: 21px;
-width: 511px;
-height: 844px;
-
-
+    width: 28vw;
+    height: 72vh;
+    min-width: 25vh;
+    max-width: 55vh;    
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 1px 17px 14px #DDD8F7;
 }
 
 .imgHeader {
-    border-radius: 21px 21px 0px 0px;
-    Width:511px;
-    Height:254px
-    
+    background-image: url(/lib/illustration-hero.svg);
+    width: 30vw;
+    height: 22vh;
+    min-width: 25vh;
+    max-width: 55vh; 
+    min-height: 19vh;
+    max-height: 48vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contPrincipal{
+    padding: 2vw;
+    text-align: center;
+}
+
+h1{
+    color: 223, 47%, 23%;   
     
 }
 
+p{
+    color: rgb(82, 82, 168);
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-bottom: 18px;
+    padding: 0 15%;
+}
+
+
+.selecionplan{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+}
+
+.precio{
+    text-align: left;
+}
+
+.precio span{
+    color: rgb(82, 82, 168);
+}
+
+.selecionplan a{
+    color: 225, 100%, 98%;
+    font-weight: 700;
+}
+
 .buttonPago{
-width: 342px;
-height: 66px;
 color: rgb(255, 255, 255);
 background-color: #382ADF;
 border-color: bisque;
 box-shadow: 1px 17px 14px #DDD8F7;
 border-radius: 10px;
-cursor: pointer;
+cursor: pointer; 
+width: 100%;
+padding: 6%;
+font-weight: 700;
+font-size: 1.1em;
+}
+
+.buttonCancel{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 800;
+    color: rgb(85, 85, 156);
+    width: 100%;
+    margin: 12% 0;
 }
