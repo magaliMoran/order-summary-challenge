@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./src",
-    "start": "serve ./src",
+    "lint": "eslint src/",
+    "start": "serve src/",
     "htmlhint": "htmlhint src/*.html test/*.html",
     "deploy": "gh-pages -d dist",
     "eslint": "eslint --ext .js src/"

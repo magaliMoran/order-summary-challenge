@@ -11,7 +11,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(/lib/pattern-background-desktop.svg);
+    background-image: url(/CMDX11-proyect-order-summay-component/src/image/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -32,7 +32,7 @@
 }
 
 .imgHeader {
-    background-image: url(/lib/illustration-hero.svg);
+    background-image: url(/CMDX11-proyect-order-summay-component/src/image/illustration-hero.svg);
     width: 30vw;
     height: 22vh;
     min-width: 25vh;
